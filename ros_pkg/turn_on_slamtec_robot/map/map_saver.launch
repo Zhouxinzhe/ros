@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="map_server" type="map_saver" name="map_saver1" args="-f /home/slamtec/slamtec_ros/src/turn_on_slamtec_robot/map/SLAMTEC" output="screen">	
+	</node>
+</launch>

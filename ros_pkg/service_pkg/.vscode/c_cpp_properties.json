@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zhou/class_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zhou/class_ws/src/into_ros/listener/include/**",
+        "/home/zhou/class_ws/src/into_ros/service_pkg/include/**",
+        "/home/zhou/class_ws/src/into_ros/talker/include/**",
+        "/home/zhou/catkin_ws/src/test_pkg/include/**",
+        "/home/zhou/class_ws/src/into_ros/turtle_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

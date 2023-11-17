@@ -1,0 +1,9 @@
+<?xml version="1.0"?> 
+<launch>  <!-- 根元素起始 -->
+<!-- 节点起始 --> 
+    <node pkg="talker" type="talker_node" name="talker" ns="sim1" output="screen"/> <!-- 节点结束 --> 
+<!-- 节点起始 --> 
+    <node pkg="listener" type="listener_node" name="listener" ns="sim1" output="screen"> <!-- 节点结束 --> 
+        <rosparam command="load" file = "$(find talker)/config/config.yaml"/>
+    </node>
+</launch> <!-- 根元素结束 -->

@@ -1,0 +1,16 @@
+<?xml version="1.0"?> 
+<launch>  <!-- 根元素起始 -->
+<!-- 节点起始 --> 
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" ns="sim1" /> <!-- 节点结束 --> 
+<!-- 节点起始 --> 
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop" ns="sim1"> </node> <!-- 节点结束 --> 
+<!-- 节点起始 --> 
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" ns="sim1" /> <!-- 节点结束 -->
+<!-- 节点起始 --> 
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop1" ns="sim1"> </node> <!-- 节点结束 --> 
+<!-- 节点起始 --> 
+    <node pkg="talker" type="talker_node" name="talker" ns="sim1" /> <!-- 节点结束 --> 
+<!-- 节点起始 --> 
+    <node pkg="listener" type="listener_node" name="listener" ns="sim1" /> <!-- 节点结束 -->     
+    
+</launch> <!-- 根元素结束 -->
